@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Formiklist from './Formiklist';
+// import CreateUseState from './Component/CreateUseState';
+// import Useindex from './Component/Useindex';
+// import Formiks from './Formiks';
+
+import User from './Component/User';
+// import Reducerss from './Reducerss';
+// import { Reducerrr } from './reduce/Reducerrr';
+// import { Reduc } from './reduce/Reduc';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <User />
+     {/* <CreateUseState />  */}
+     {/* <Reduc/> */}
+     {/* <Useindex /> */}
+     <Formiklist />
+     
+     {/* <Reducerss />  */}
+     {/* <Reducerrr /> */}
+
+    
+     
+    
+    </>
   );
 }
 
